@@ -24,5 +24,4 @@ ENV KOMARI_LISTEN=0.0.0.0:25774
 
 EXPOSE 25774
 
-USER 10014
 CMD ["/app/komari", "server"]
